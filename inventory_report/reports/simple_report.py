@@ -14,8 +14,7 @@ class SimpleReport:
             [
                 product['data_de_validade'] for product in product_list
                 if product['data_de_validade'] > actual_date
-            ],
-            default="EMPTY"
+            ]
         )
         company_name: str = max(
             company['nome_da_empresa'] for company in product_list
