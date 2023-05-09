@@ -5,7 +5,7 @@ from inventory_report.reports.complete_report import CompleteReport
 
 class Inventory:
     @staticmethod
-    def import_data(path: str, report_type: str):
+    def import_data(path: str, report_type: str) -> str:
         if report_type == "simples":
             with open(path, encoding="utf-8") as file:
                 inventory = csv.DictReader(file, delimiter=",", quotechar='"')

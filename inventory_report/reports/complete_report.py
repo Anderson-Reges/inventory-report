@@ -3,7 +3,7 @@ from inventory_report.reports.simple_report import SimpleReport
 
 class CompleteReport(SimpleReport):
     @staticmethod
-    def generate(product_list: list[dict]):
+    def generate(product_list: list[dict]) -> str:
         simple = super(CompleteReport, CompleteReport).generate(product_list)
         complete = dict()
         complete_return = ''

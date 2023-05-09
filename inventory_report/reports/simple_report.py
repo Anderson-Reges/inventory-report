@@ -3,7 +3,7 @@ from datetime import datetime
 
 class SimpleReport:
     @staticmethod
-    def generate(product_list: list[dict]):
+    def generate(product_list: list[dict]) -> str:
         actual_date = datetime.now().strftime('%Y-%m-%d')
         old_fabrication: int = min(
             [
