@@ -7,4 +7,7 @@ def test_relatorio_produto():
         "02-06-2023", "F2Y2", "ao abrigo de luz"
     )
     result = product.__repr__()
-    assert result == "O produto farinha fabricado em 01-05-2021 por Farinini com validade até 02-06-2023 precisa ser armazenado ao abrigo de luz."
+    assert result == (
+        "O produto farinha fabricado em 01-05-2021 por Farinini "
+        "com validade até 02-06-2023 precisa ser armazenado ao abrigo de luz."
+    )
