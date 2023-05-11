@@ -38,6 +38,10 @@ Nesse projeto foi implementado um **gerador de relatórios** que recebe como ent
   
   *:warning: Atenção: fora esses arquivos todo resto é propriedade intelectual da Trybe*
   
+## Técnologias usadas
+
+<a href="https://www.python.org/" target="_blank">![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)</a>
+  
 ## Instalando Dependências
 
 > Crie um ambiemte virtual e ative:
